@@ -1,0 +1,30 @@
+/* Poschina Vladimir
+*/
+
+/*definizione contenitori*/
+header{
+    font-size: 50px;
+    font-family: 'DM Serif Text', serif;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 1.5em;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+/*Formattazione*/
+small{
+    font-size: 89%;
+}
+
+fieldset{
+    border: 1px dotted #666;
+    padding: 1.0em;
+    margin: 1em 0;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Poschina</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chisono.html">Chi sono</a></li>
+            <li><a href="portfoglio.html">Portfoglio</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+    </nav>
+    <div id="wrapper">
+        <h2>Contatti</h2>
+        <!--intput di tipo nome, email, radio(genere), selezione provincia di nascita, data di nascita, checkbox per inserire interessi
+        campo di testo per un messaggio breve
+        Raggruppiamo separatamente dati anagrafici e messaggio breve-->
+        <form action="" method=""> 
+            <fieldset>
+                <legend>Dati Anagrafici</legend>
+                <label for="nome">Nome</label>
+                <input id=nome type="text" name="nome">
+                <br>
+                <label for="cognome">Cognome</label>
+                <input id=cognome type="text" name="cognome">
+                <br>
+                <input type="radio" id="m" name="genere">
+                <label for="m">Uomo</label>
+                <input type="radio" id="f" name="genere">
+                <label for="f">Donna</label>
+                <input type="radio" id="x" name="genere">
+                <label for="x">Altro</label>
+                <br>
+                <label for="email">e-mail</label>
+                <input type="e-mail" name="email" id="email">
+            </fieldset>
+            <fieldset>
+                <legend>I tuoi interessi</legend>
+            </fieldset>
+            <input type="submit" value="procedi">
+        </form>
+    </div>
+    <footer>
+        <p>
+            <small>5BS &copy; 2022. Poschina Vladimir</small>
+        </p>
+    </footer>
+</body>
+</html>
