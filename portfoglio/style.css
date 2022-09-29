@@ -1,0 +1,99 @@
+/*
+ Poschina Vladimir
+*/
+
+/*definizione contenitori*/
+body{
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Titillium Web', sans-serif;
+    height:100vh;
+    background:linear-gradient(rgb(18, 73, 141), rgb(12, 122, 153));
+    background-attachment: fixed;
+    color:aliceblue;
+    box-sizing: border-box;
+    display: linear;    
+}
+
+header{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0.3em;
+    font-family: 'Dancing Script', cursive;
+}
+header, #wrapper, footer{
+	text-align: center;
+	width: 400px;
+	margin: 0 auto;
+}
+
+#wrapper{
+	background-color: #d46363;
+	text-align: left;
+	padding: 1.5em;
+	border: 1px dashed #CCC;
+}
+
+#container{
+    border: dashed black 1px ;
+}
+nav ul li{
+    display: inline-block;
+    margin: 1em 1.5em;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+/*formattazione*/
+/*10px=1.0em*/
+
+h1, h2, h3, h4, h5{
+    color: blue;
+}
+
+h1{
+    font-size: 2.0em;
+    margin: 1.0em 0;
+}
+h3{
+    font-size: 1.8em;
+    margin: 0.5em 0;
+}
+ul, ol{
+    margin: 0.25em;
+    list-style-type: square;
+    padding-left: 1.5em;
+}
+small{
+    font-size: 89%;
+}
+
+fieldset{
+    border: 1px dotted #666;
+    padding: 1.0em;
+    margin: 1em 0;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    font-size: larger;
+}
+
+a:active{
+    color:red;
+    text-decoration: none;
+}
+
+#link{
+    color:#d46363;
+}
